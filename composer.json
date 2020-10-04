@@ -1,19 +1,23 @@
 {
-    "name": "rafaeltovar/php-tus-aws-s3",
-    "description": "Simple, light, minimum TUS server connected with AWS S3. Based on https://github.com/ankitpokhrel/tus-php",
+    "name": "subretion/php-tus-aws-s3",
+    "description": "PHP TUS Server S3 Based on https://github.com/rafaeltovar/php-tus-aws-s3",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "TusPhpS3\\": "src"
         }
     },
-    "homepage": "https://github.com/rafaeltovar/php-tus-aws-s3",
+    "homepage": "https://github.com/subretion/php-tus-aws-s3",
     "authors": [
+        {
+            "name": "Arthur Nikitenko",
+            "email": "niko2040@4e.by",
+            "homepage": "https://subretion.com/"
+        },
         {
             "name": "Rafael Tovar",
             "email": "hola@rafaeltovar.info",
             "homepage": "https://code.rafaeltovar.info/"
-
         }
     ],
     "require": {
@@ -22,7 +26,7 @@
         "league/flysystem-aws-s3-v3": "^1.0",
         "ankitpokhrel/tus-php": "^1.0",
         "aws/aws-sdk-php": "^3.112",
-        "guzzlehttp/guzzle": "^6.4",
+        "guzzlehttp/guzzle": "^7",
         "symfony/http-foundation": "^4.3"
     }
 }
