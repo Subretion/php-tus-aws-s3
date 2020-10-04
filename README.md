@@ -7,7 +7,7 @@ Simple, light, minimum TUS server connected with AWS S3. Based on [ankitpokhrel/
 ### Composer
 
 ```
-composer require rafaeltovar/php-tus-aws-s3 predis/predis
+composer require subretion/php-tus-aws-s3
 ```
 
 ## Features
