@@ -106,7 +106,7 @@ extends File
         $result = $this->getS3()->getClient()->createMultipartUpload([
             'Bucket'       => $this->getS3()->getBucket(),
             'Key'          => $this->getS3()->applyPathPrefix($this->S3key($key)),
-            'StorageClass' => 'REDUCED_REDUNDANCY',
+            'StorageClass' => 'STANDARD',
             'Metadata'     => []
         ]);
 
